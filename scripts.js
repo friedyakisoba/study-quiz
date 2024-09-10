@@ -23,22 +23,37 @@ function getRandomQuestions(questionSet) {
     return shuffled.slice(0, 5);
 }
 
+function showQuestions () {
+    const questionElement = document.getElementById('question');
+    const choicesElement = document.getElementById('choices');
+    questionElement.textContent = "Citizenship Quiz";
 
+    // clear any previous questions and choices
+    choicesElement.innerHTML = '';
+    userAnswers = [];
 
-const questionElement = document.getElementById('question');
-const button = document.getElementById('new');
-
-
-function getRandomIndex() {
-    return Math.floor(Math.random() * questions.length);
 }
 
-function askRandomQuestion() {
-    const randomIndex = getRandomIndex();
-    questionElement.textContent = questions[randomIndex];
-}
 
-button.addEventListener('click', askRandomQuestion);
+function gradeQuiz() {
+    // setting a counter for the correct answer
+    let correctCount = 0;
+    // reference for the feedback container
+    const feedbackElement = document.getElementById('feedback');
+    // Clears the previous feedback given
+    feedbackElement.innerHTML = ''
+
+    currentQuestions.forEach((q, index) => {
+        const correctAnswer = q.correctAnswer;
+        const userAnswer = userAnswers[index];
+
+        if (userAnswer === correctAnswer) {
+            correctCount++
+        }   
+    });
+
+   feedbackElement.textContent `'You got ${correctCount} out of ${correctQuestions.length} correct. `; 
+}
 
 
 

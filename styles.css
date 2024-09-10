@@ -16,6 +16,11 @@ li {
     font-size: 20px;
 }
 
+#box-three {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .question {
     font-size: 50px;
@@ -29,7 +34,8 @@ li {
     
 }
 
-#new{
+#new,
+#set{
     height: 30px;
     width: 150px;
     font-size: 15px;

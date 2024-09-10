@@ -1,0 +1,37 @@
+[
+    {
+        "question": "What is the supreme law of the land?",
+        "choices":[],
+        "correctAnswer": "the constitution"
+    },
+    {
+        "question": "What did the declaration of independence do?",
+        "choices": [],
+        "correctAnswer": "declared our independence (from Great Britain)" 
+    },
+    {
+        "question": "What happened at the Constitutional Convention",
+        "choices": [],
+        "correctAnswer": "the constitution was written" 
+    },
+    {
+        "question": "What does the constitution do?" ,
+        "choices": [],
+        "correctAnswer": "sets up the government"
+    },
+    {
+        "question": "The idea of self-governmnet is in the first three words of the constitution. What are these words",
+        "choices": [],
+        "correctAnswer": "we the people"
+    },    
+    {
+        "question": "What is an amendment?" ,
+        "choices": [],
+        "correctAnswer": "a change (or addition) to the constitution"
+    },    
+    {
+        "question": "What do we call the first ten amendments to the constitution?",
+        "choices": [],
+        "correctAnswer": "the bill of rights"
+    }
+]

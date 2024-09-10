@@ -1,3 +1,45 @@
 {
+    "What is the supreme law of the land?": [
+        "the constitution"
+    ],
+    "What does the Constitution do?": [
+        "sets up the government",
+        "defines the government",
+        "protects basic rights of Americans"
+    ],
+    "What is an amendment?": [
+        "a change",
+        "an addition"
+    ],
+    "What is the first three words in the constitution?": [
+        "we the people"
+    ],
+    "What do we call the first ten amendments to the Constitution": [
+        "the bill of rights"
+    ],
+    "What is one right or freedom from the First Amendment?": [
+        "speech",
+        "religion",
+        "assembly",
+        "press",
+        "petition the government"
+    ],
+    "How many amendments does the government have?": [
+        "27",
+        "twenty seven",
+        "twenty-seven"
+    ],
+    "What did the Declaration of Independence do?": [
+        "announced our independence",
+        "declared our independence",
+        "said that the united states is free"
+    ],
+    "What are the rights in the Declaration of Independence?": [
+        "life, liberty, and pursuit of happiness"
+    ],
+    "What is freedom of religion": [
+        "practice any or no religion"
+    ]
+
     
 }

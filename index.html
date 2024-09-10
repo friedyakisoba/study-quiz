@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,38 @@
     <script src="scripts.js" defer></script>
     <title>Citizenship Questions</title>
 </head>
+
 <body>
 
     <div class="question" id="question">
-        Text Placement
+        Citizenship Quiz
     </div>
-    <div class="box">
-     <input type="text" class="input-box">
+
+    <div class="box" id="box-two">
+        <ul class="choices">
+            <li>
+                <input type="radio" class="answers" name="question">
+                <span>Answer 1</span>
+            </li>
+            <li>
+                <input type="radio" class="answers" name="question">
+                <span>Answer 2</span>
+            </li>
+            <li>
+                <input type="radio" class="answers" name="question">
+                <span>Answer 3</span>
+            </li>
+            <li>
+                <input type="radio" class="answers" name="question">
+                <span>Answer 4</span>
+            </li>
+
+        </ul>
     </div>
-    <div class="new-question">
-        <button id="new">Ask a new Question</button>
+
+    <div class="new-question" id="box-three">
+        <button id="new">Submit</button>
     </div>
 </body>
+
 </html>

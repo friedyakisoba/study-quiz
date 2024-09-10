@@ -1,37 +1,72 @@
 [
     {
         "question": "What is the supreme law of the land?",
-        "choices":[],
-        "correctAnswer": "the constitution"
+        "choices": [
+            "The President",
+            "The Supreme Court",
+            "The Constitution",
+            "The Congress"
+        ],
+        "correctAnswer": "The Constitution"
     },
     {
-        "question": "What did the declaration of independence do?",
-        "choices": [],
-        "correctAnswer": "declared our independence (from Great Britain)" 
+        "question": "What did the Declaration of Independence do?",
+        "choices": [
+            "Gave women the right to vote",
+            "Declared our independence from Great Britain",
+            "Abolished slavery",
+            "Established the Constitution"
+        ],
+        "correctAnswer": "Declared our independence from Great Britain"
     },
     {
-        "question": "What happened at the Constitutional Convention",
-        "choices": [],
-        "correctAnswer": "the constitution was written" 
+        "question": "What happened at the Constitutional Convention?",
+        "choices": [
+            "The Declaration of Independence was signed",
+            "The Bill of Rights was written",
+            "The Constitution was written",
+            "George Washington was elected president"
+        ],
+        "correctAnswer": "The Constitution was written"
     },
     {
-        "question": "What does the constitution do?" ,
-        "choices": [],
-        "correctAnswer": "sets up the government"
+        "question": "What does the Constitution do?",
+        "choices": [
+            "Declares war",
+            "Sets up the government",
+            "Gives the president power",
+            "Establishes taxes"
+        ],
+        "correctAnswer": "Sets up the government"
     },
     {
-        "question": "The idea of self-governmnet is in the first three words of the constitution. What are these words",
-        "choices": [],
-        "correctAnswer": "we the people"
-    },    
+        "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+        "choices": [
+            "We the people",
+            "By the people",
+            "For the people",
+            "Of the people"
+        ],
+        "correctAnswer": "We the people"
+    },
     {
-        "question": "What is an amendment?" ,
-        "choices": [],
-        "correctAnswer": "a change (or addition) to the constitution"
-    },    
+        "question": "What is an amendment?",
+        "choices": [
+            "A change (or addition) to the Constitution",
+            "A law passed by Congress",
+            "An order from the president",
+            "A ruling by the Supreme Court"
+        ],
+        "correctAnswer": "A change (or addition) to the Constitution"
+    },
     {
-        "question": "What do we call the first ten amendments to the constitution?",
-        "choices": [],
-        "correctAnswer": "the bill of rights"
+        "question": "What do we call the first ten amendments to the Constitution?",
+        "choices": [
+            "The Bill of Rights",
+            "The Articles of Confederation",
+            "The Magna Carta",
+            "The Emancipation Proclamation"
+        ],
+        "correctAnswer": "The Bill of Rights"
     }
 ]

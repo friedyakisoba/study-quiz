@@ -1,0 +1,30 @@
+
+body { 
+    background-color: antiquewhite;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.question {
+    font-size: 50px;
+}
+
+.input-box {
+    height: 35px;
+    width: 400px;
+    font-size: 20px;
+    /* background-color: rgb(186,182,178); */
+    background-color: aliceblue;
+}
+
+#new{
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    cursor: pointer;
+}
